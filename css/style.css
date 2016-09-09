@@ -25,6 +25,12 @@ h4 {
     font-family: "Bree Serif";
 }
 
+@media screen and (min-width: 500px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
 article {
     max-width: 80%;
     margin: 0 auto;
