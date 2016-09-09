@@ -29,12 +29,14 @@ html {
 
 .img-responsive {
     display: block;
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
 }
 
 
 /* Badge */
+
+
 /* Colors needs to be set in custom css for badge-shield and badge-text elements */
 
 .badge {
