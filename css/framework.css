@@ -1,0 +1,76 @@
+/* HTML elements */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+/* Text */
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+
+/* Images */
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Badge */
+/* Colors needs to be set in custom css for badge-shield and badge-text elements */
+
+.badge {
+    position: relative;
+    display: inline-block;
+    max-height: 2rem;
+}
+
+.badge .badge-shield {
+    font-size: 2rem;
+}
+
+.badge .badge-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    font-size: .6rem;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Page sections */
+
+
+/* Responsive classes */
+
+@media screen and (max-width: 420px) {
+    .size-medium,
+    .size-large {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .size-small {
+        display: none;
+    }
+}

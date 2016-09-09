@@ -2,194 +2,276 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<link href="favicon.ico" type="image/x-icon" rel="shortcut icon">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>Magic Johnson | tribute page</title>
-	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,600,600italic,300,300italic" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <link href="favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Magic Johnson | tribute page</title>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,600,600italic,300,300italic" rel="stylesheet">
 
-	<link rel="stylesheet" href="css/style.css">
+    <!-- external css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-	<div class="container-fluid" id="wrapper">
-		<div class="container-fluid" id="main-header">
-			<h1 class="text-center">MAGIC JOHNSON</h1>
-			<h3><i class="fa fa-star"></i> bringing magic into the game <i class="fa fa-star"></i></h3>
-		</div>
+    <div class="header">
+        <div class="header__title">
+            <h1 class="text-center">MAGIC JOHNSON</h1>
+            <h4 class="text-center"><i class="fa fa-star"></i> bringing magic into the game <i class="fa fa-star"></i></h4>
+        </div>
+        <!--.header__title-->
 
-		<div class="container-fluid" id="main-picture">
-			<img src="http://s32.postimg.org/3uh743akl/magic.jpg" class="img-responsive center-block">
-		</div>
-	</div>
+        <div class="container-fluid" id="main-picture">
+            <img src="img/magic-alone.jpg" class="img-responsive size-small">
+            <img src="img/magic.jpg" class="img-responsive size-medium">
+        </div>
+    </div>
+    <!--.header-->
 
-	<div class="container-fluid" id="cards-container">
-		<h1 class="text-center">CAREER ACHIEVEMENTS</h1>
-		<div class="row">
-			<div class="col-xs-4 col-md-offset-2 col-md-2 card" id="nba-titles">
-				<h3 class="text-center">NBA <br /> Champion</h3>
-				<h5 class="text-center">5 times</h5>
-				<ul class="list-unstyled text-center">
-					<li>1980</li>
-					<li>1982</li>
-					<li>1985</li>
-					<li>1987</li>
-					<li>1988</li>
-				</ul>
-			</div>
+    <div class="achievement">
+        <h2 class="text-center uppercase">CAREER ACHIEVEMENTS</h2>
+        <div class="card text-center" id="titles">
+            <h5 class="text-center card__title uppercase">NBA champion</h5>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">80</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">82</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">85</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">87</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">88</div>
+            </div>
+        </div>
+        <!-- .card -->
 
-			<div class="col-xs-4 col-md-offset-1 col-md-2 card" id="nba-mvp">
-				<h3 class="text-center">NBA <br /> MVP</h3>
-				<h5 class="text-center">3 times</h5>
-				<ul class="list-unstyled text-center">
-					<li>1987</li>
-					<li>1989</li>
-					<li>1990</li>
-					<li>1987</li>
-					<li>1988</li>
-				</ul>
-			</div>
+        <div class="card text-center" id="league-mvp">
+            <h5 class="text-center card__title uppercase">League MVP</h5>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">87</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">89</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">90</div>
+            </div>
+        </div>
+        <!-- .card -->
 
-			<div class="col-xs-4 col-md-offset-1 col-md-2 card" id="nba-allstar">
-				<h3 class="text-center">NBA <br /> All Star</h3>
-				<h5 class="text-center">12 times</h5>
-				<ul class="list-unstyled text-center row">
-					<li class="col-xs-6">1980</li>
-					<li class="col-xs-6">1982</li>
-					<li class="col-xs-6">1983</li>
-					<li class="col-xs-6">1984</li>
-					<li class="col-xs-6">1985</li>
-					<li class="col-xs-6">1986</li>
-					<li class="col-xs-6">1987</li>
-					<li class="col-xs-6">1988</li>
-					<li class="col-xs-6">1989</li>
-					<li class="col-xs-6">1990</li>
-					<li class="col-xs-6">1991</li>
-					<li class="col-xs-6">1992</li>
-				</ul>
-			</div>
-		</div>
-	</div>
+        <div class="card text-center" id="finals-mvp">
+            <h5 class="text-center card__title uppercase">Finals MVP</h5>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">80</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">82</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">87</div>
+            </div>
+        </div>
+        <!-- .card -->
 
-	<div class="row">
-		<div class="container col-xs-offset-2 col-xs-8 col-md-offset-3 col-md-6" id="biography">
-			<h1 class="text-center">BIOGRAPHY</h1>
-			<section>
-				<h3 class="text-uppercase text-center">Early life</h3>
-				<p class="text-justify">
-					Basketball icon Magic Johnson was born Earvin Johnson Jr. on August 14, 1959, in Lansing, Michigan. For 12 years, Johnson dominated the court as one of America's best basketball players. He has since then built up a business empire, which includes real
-					estate holdings, several Starbucks franchises, and movie theaters.
-				</p>
+        <div class="card text-center" id="all-star">
+            <h5 class="text-center card__title uppercase">All Star</h5>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">80</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">82</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">83</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">84</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">85</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">86</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">87</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">88</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">89</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">90</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">91</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">92</div>
+            </div>
+            <div class="badge">
+                <i class="fa fa-star text-center badge-shield"></i>
+                <div class="badge-text">93</div>
+            </div>
+        </div>
+        <!-- .card -->
+    </div>
+    <!-- .achievement -->
 
-				<p class="text-justify">
-					From a large family, Johnson grew up with nine brothers and sisters. Both of his parents worked—his father for the General Motors plant in town and his mother for as a school custodian. He had a passion for basketball, and would start practicing as early
-					as 7:30 a.m. At Everett High School, Johnson earned his famous nickname, "Magic," after a sportswriter witnessed him score 36 points, 16 rebounds, and 16 assists in a single game.
-				</p>
-			</section>
 
-			<section>
-				<h3 class="text-uppercase text-center">Passion for Basketball</h3>
-				<p class="text-justify">
-					Magic Johnson continued to play in college for Michigan State University. Standing at 6 feet 9 inches tall, he made for an impressive point guard. Johnson excelled during his freshman year, helping his team, the Spartans, clinch the Big Ten Conference
-					title. The following year, he played an important role in taking the Spartans all the way to the NCAA Finals. There they faced off against the Indiana State Sycamores. In one of the most famous match-ups in college basketball history, Johnson went
-					head-to-head with Indiana's star forward, Larry Bird. The Spartans proved victorious, and the Johnson-Bird rivalry would follow the players to their days with the NBA.
-				</p>
 
-				<p class="text-justify">
-					Leaving college after two years, Johnson was drafted by the Los Angeles Lakers in 1979. He did well in his first season (1979-80) with the team, averaging 18 points, 7.7 rebounds, and 7.3 assists per game. Johnson won the NBA Finals Most Valuable Player
-					award for his efforts in leading the Lakers to a victory over the Philadelphia 76ers, winning four of six games in the championship series. The team also included such strong players as Kareem Abdul-Jabbar, Jamaal Wilkes and Norm Nixon.
-				</p>
-			</section>
 
-			<section>
-				<h3 class="text-uppercase text-center">NBA Star</h3>
-				<p class="text-justify">
-					During Magic Johnson's third season (1981-82) with the team, the Lakers made the NBA Finals again. For the second time in his pro career, the Lakers defeated the Philadelphia 76ers for the championship title. Additionally, Johnson, who scored 13 points,
-					and made 13 rebounds and 13 assists in Game 6 of the 1982 Finals, earned his second series MVP award. The following season (1982-83) saw the third Finals match-up between the Lakers and the 76ers in four years. This time, however, L.A. was defeated
-					by Philadelphia, losing four consecutive games to the 76ers and winning none during the series.
-				</p>
 
-				<p class="text-justify">
-					In the 1984 NBA Finals, Johnson again encountered rival Larry Bird, who had signed with the Boston Celtics. This was the first of several match-ups between the two teams. The Celtics beat the Lakers in a tight competition—four games to three—for the 1984
-					championship. The Lakers, however, took down the Celtics the following year in the finals.
-				</p>
 
-				<p class="text-justify">
-					Johnson and his team continued to be one of the NBA's top competitors throughout the rest of the 1980s. In the 1987 NBA Finals, they again defeated the Boston Celtics, and Johnson received the NBA Finals MVP Award for the third and final time in his career.
-					This remarkable season marked Johnson's personal best in terms of average points per game, with an incredible 23.9. Additionally, in 1987, he received his first NBA MVP award for his performance on the court—an honor he would receive again in 1989
-					and 1990.
-				</p>
-			</section>
 
-			<section>
-				<h3 class="text-uppercase text-center">HIV Diagnosis</h3>
-				<p class="text-justify">
-					In November 1991, Magic Johnson retired from the Lakers after revealing that he had HIV, the virus that causes AIDS. He believed he contracted the disease through unprotected sexual activity. The diagnosis was especially hard for Johnson. At the time
-					he learned he had the disease, his wife Cookie was pregnant with their first child. Both his wife and son, Earvin III, turned out to not have HIV.
-				</p>
+    <article>
+        <h2 class="text-center uppercase">BIOGRAPHY</h2>
+        <section>
+            <h4 class="text-uppercase text-center">Early life</h4>
+            <p class="text-justify">
+                Basketball icon Magic Johnson was born Earvin Johnson Jr. on August 14, 1959, in Lansing, Michigan. For 12 years, Johnson dominated the court as one of America's best basketball players. He has since then built up a business empire, which includes real
+                estate holdings, several Starbucks franchises, and movie theaters.
+            </p>
 
-				<p class="text-justify">
-					At the time, many people thought the virus mostly affected homosexuals or intravenous drug users. There was also a lot of fear and confusion regarding how the disease could be transmitted. Johnson's decision to go public with his medical condition helped
-					raise awareness about the disease. He established the Magic Johnson Foundation to support HIV/AIDS research efforts and awareness programs that same year. In 1992, he wrote the educational guide What You Can Do to Avoid AIDS.
-				</p>
+            <p class="text-justify">
+                From a large family, Johnson grew up with nine brothers and sisters. Both of his parents worked—his father for the General Motors plant in town and his mother for as a school custodian. He had a passion for basketball, and would start practicing as early
+                as 7:30 a.m. At Everett High School, Johnson earned his famous nickname, "Magic," after a sportswriter witnessed him score 36 points, 16 rebounds, and 16 assists in a single game.
+            </p>
+        </section>
 
-				<p class="text-justify">
-					Undeterred, Johnson played in the 1992 Summer Olympic Games in Barcelona, Spain. Along with Michael Jordan and Larry Bird, he was part of the American "Dream Team" that won the gold medal. He hoped to return to professional basketball for the next season,
-					but he dropped that plan amidst fear from other players who were concerned about playing with an HIV-positive competitor.
-				</p>
-			</section>
+        <section>
+            <h3 class="text-uppercase text-center">Passion for Basketball</h3>
+            <p class="text-justify">
+                Magic Johnson continued to play in college for Michigan State University. Standing at 6 feet 9 inches tall, he made for an impressive point guard. Johnson excelled during his freshman year, helping his team, the Spartans, clinch the Big Ten Conference
+                title. The following year, he played an important role in taking the Spartans all the way to the NCAA Finals. There they faced off against the Indiana State Sycamores. In one of the most famous match-ups in college basketball history,
+                Johnson went head-to-head with Indiana's star forward, Larry Bird. The Spartans proved victorious, and the Johnson-Bird rivalry would follow the players to their days with the NBA.
+            </p>
 
-			<section>
-				<h3 class="text-uppercase text-center">Retirement and Legacy</h3>
-				<p class="text-justify">
-					Magic Johnson explored other options after leaving basketball. In 1992, he had his latest book, My Life, published. Johnson had previously written two books about himself and the game, 1983's Magic and 1989's Magic's Touch. He also appeared on television
-					as a sports commentator. During the 1993-1994 basketball season, Johnson tried his hand at coaching with the Lakers. He then bought a small share of the team.
-				</p>
+            <p class="text-justify">
+                Leaving college after two years, Johnson was drafted by the Los Angeles Lakers in 1979. He did well in his first season (1979-80) with the team, averaging 18 points, 7.7 rebounds, and 7.3 assists per game. Johnson won the NBA Finals Most Valuable Player
+                award for his efforts in leading the Lakers to a victory over the Philadelphia 76ers, winning four of six games in the championship series. The team also included such strong players as Kareem Abdul-Jabbar, Jamaal Wilkes and Norm Nixon.
+            </p>
+        </section>
 
-				<p class="text-justify">
-					In 1996, staging a brief comeback, Johnson returned for a few months to the Lakers as a player. He finally retired for good that same year, leaving behind an impressive legacy. Over his long career, Johnson scored 17,707 points and made 10,141 assists,
-					6,559 rebounds and 1,824 steals. He also became the all-time leader in NBA assists per game, with an average of 11.2—a title that he continues to hold today. Johnson was named one of the 50 greatest players in NBA history in 1996, and was inducted
-					into the Basketball Hall of Fame in 2002.
-				</p>
+        <section>
+            <h3 class="text-uppercase text-center">NBA Star</h3>
+            <p class="text-justify">
+                During Magic Johnson's third season (1981-82) with the team, the Lakers made the NBA Finals again. For the second time in his pro career, the Lakers defeated the Philadelphia 76ers for the championship title. Additionally, Johnson, who scored 13 points,
+                and made 13 rebounds and 13 assists in Game 6 of the 1982 Finals, earned his second series MVP award. The following season (1982-83) saw the third Finals match-up between the Lakers and the 76ers in four years. This time, however, L.A.
+                was defeated by Philadelphia, losing four consecutive games to the 76ers and winning none during the series.
+            </p>
 
-				<p class="text-justify">
-					Just as he had dominated the courts, Johnson became a powerful force in business. He created Magic Johnson Enterprises, which has a variety of holdings. Much of his efforts have focused on developing urban areas, bringing Starbucks coffee franchises and
-					movie theaters into underserved communities. In 2008, he shared his secrets for success with the book 32 Ways to be a Champion in Business.
-				</p>
+            <p class="text-justify">
+                In the 1984 NBA Finals, Johnson again encountered rival Larry Bird, who had signed with the Boston Celtics. This was the first of several match-ups between the two teams. The Celtics beat the Lakers in a tight competition—four games to three—for the 1984
+                championship. The Lakers, however, took down the Celtics the following year in the finals.
+            </p>
 
-				<p class="text-justify">
-					Recently, Johnson reteamed with Larry Bird to write the 2009 book When the Game Was Ours, which explores their rivalry, their experiences on the court, and the sport they love. That same year, he was inducted into the College Basketball Hall of Fame.
-				</p>
+            <p class="text-justify">
+                Johnson and his team continued to be one of the NBA's top competitors throughout the rest of the 1980s. In the 1987 NBA Finals, they again defeated the Boston Celtics, and Johnson received the NBA Finals MVP Award for the third and final time in his career.
+                This remarkable season marked Johnson's personal best in terms of average points per game, with an incredible 23.9. Additionally, in 1987, he received his first NBA MVP award for his performance on the court—an honor he would receive again
+                in 1989 and 1990.
+            </p>
+        </section>
 
-				<p class="text-justify">
-					In addition to son Earvin, Johnson and his wife, Cookie, have a daughter named Elisa, whom they adopted in 1995. He also has a son, Andre, from a previous relationship.
-				</p>
-			</section>
-			<section>
-				<h6 class="text-right">Source: <a href="www.biography.com">biography.com</a></h6>
-			</section>
-			<section id="links">
-				<h4>External links</h4>
-				<ul class="list-unstyled">
-					<li>Magic's <a href="https://en.wikipedia.org/wiki/Magic_Johnson">Wikipedia</a> page</li>
-					<li>Player's bio on <a href="http://www.nba.com/history/players/johnsonm_bio.html">nba.com</a></li>
-					<li>Career stats on <a href="http://www.nba.com/history/players/johnsonm_stats.html">nba.com</a></li>
-				</ul>
-			</section>
-		</div>
-	</div>
+        <section>
+            <h3 class="text-uppercase text-center">HIV Diagnosis</h3>
+            <p class="text-justify">
+                In November 1991, Magic Johnson retired from the Lakers after revealing that he had HIV, the virus that causes AIDS. He believed he contracted the disease through unprotected sexual activity. The diagnosis was especially hard for Johnson. At the time
+                he learned he had the disease, his wife Cookie was pregnant with their first child. Both his wife and son, Earvin III, turned out to not have HIV.
+            </p>
 
-	<footer class="footer">
-		<p class="text-center">site by Gasha</p>
-	</footer>
+            <p class="text-justify">
+                At the time, many people thought the virus mostly affected homosexuals or intravenous drug users. There was also a lot of fear and confusion regarding how the disease could be transmitted. Johnson's decision to go public with his medical condition helped
+                raise awareness about the disease. He established the Magic Johnson Foundation to support HIV/AIDS research efforts and awareness programs that same year. In 1992, he wrote the educational guide What You Can Do to Avoid AIDS.
+            </p>
+
+            <p class="text-justify">
+                Undeterred, Johnson played in the 1992 Summer Olympic Games in Barcelona, Spain. Along with Michael Jordan and Larry Bird, he was part of the American "Dream Team" that won the gold medal. He hoped to return to professional basketball for the next season,
+                but he dropped that plan amidst fear from other players who were concerned about playing with an HIV-positive competitor.
+            </p>
+        </section>
+
+        <section>
+            <h3 class="text-uppercase text-center">Retirement and Legacy</h3>
+            <p class="text-justify">
+                Magic Johnson explored other options after leaving basketball. In 1992, he had his latest book, My Life, published. Johnson had previously written two books about himself and the game, 1983's Magic and 1989's Magic's Touch. He also appeared on television
+                as a sports commentator. During the 1993-1994 basketball season, Johnson tried his hand at coaching with the Lakers. He then bought a small share of the team.
+            </p>
+
+            <p class="text-justify">
+                In 1996, staging a brief comeback, Johnson returned for a few months to the Lakers as a player. He finally retired for good that same year, leaving behind an impressive legacy. Over his long career, Johnson scored 17,707 points and made 10,141 assists,
+                6,559 rebounds and 1,824 steals. He also became the all-time leader in NBA assists per game, with an average of 11.2—a title that he continues to hold today. Johnson was named one of the 50 greatest players in NBA history in 1996, and
+                was inducted into the Basketball Hall of Fame in 2002.
+            </p>
+
+            <p class="text-justify">
+                Just as he had dominated the courts, Johnson became a powerful force in business. He created Magic Johnson Enterprises, which has a variety of holdings. Much of his efforts have focused on developing urban areas, bringing Starbucks coffee franchises and
+                movie theaters into underserved communities. In 2008, he shared his secrets for success with the book 32 Ways to be a Champion in Business.
+            </p>
+
+            <p class="text-justify">
+                Recently, Johnson reteamed with Larry Bird to write the 2009 book When the Game Was Ours, which explores their rivalry, their experiences on the court, and the sport they love. That same year, he was inducted into the College Basketball Hall of Fame.
+            </p>
+
+            <p class="text-justify">
+                In addition to son Earvin, Johnson and his wife, Cookie, have a daughter named Elisa, whom they adopted in 1995. He also has a son, Andre, from a previous relationship.
+            </p>
+        </section>
+        <section>
+            <h6 class="text-right">Source: <a href="www.biography.com">biography.com</a></h6>
+        </section>
+        <section id="links">
+            <h4>External links</h4>
+            <ul class="list-unstyled">
+                <li>Magic's <a href="https://en.wikipedia.org/wiki/Magic_Johnson">Wikipedia</a> page</li>
+                <li>Player's bio on <a href="http://www.nba.com/history/players/johnsonm_bio.html">nba.com</a></li>
+                <li>Career stats on <a href="http://www.nba.com/history/players/johnsonm_stats.html">nba.com</a></li>
+            </ul>
+        </section>
+    </article>
+
+    <footer class="footer">
+        <p class="text-center">site by <a href="gashaonline.com">Gasha</a></p>
+    </footer>
 </body>
 
 </html>
